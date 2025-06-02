@@ -39,3 +39,35 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.wikitable {
+  border-collapse: collapse;
+  border: 1px solid #a2a9b1;
+  width: 100%;
+  background-color: #fff;
+  font-size: 0.9rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #202122;
+}
+
+.wikitable th,
+.wikitable td {
+  border: 1px solid #a2a9b1;
+  padding: 0.3em 0.6em;
+  vertical-align: top;
+  text-align: left;
+}
+
+.wikitable th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.wikitable tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.wikitable tr:hover {
+  background-color: #e2e6ef;
+  cursor: pointer;
+}
