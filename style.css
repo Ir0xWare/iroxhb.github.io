@@ -113,20 +113,40 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.hub-page {
+  background-color: #000;
+  color: #fff;
+}
+
+.hub-page #content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.hub-page h1, .hub-page h2 {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
 .hub-page .post {
-  margin-bottom: 30px;
-  padding: 15px;
-  background-color: #444;
-  color: #f0f0f0;
+  background-color: #111;
+  color: #fff;
+  padding: 15px 20px;
   border-radius: 6px;
+  margin-bottom: 30px;
+  border: 1px solid #444;
 }
 
 .hub-page .post h2 {
+  color: #fff;
   margin-top: 0;
-  font-size: 1.4em;
 }
 
 .hub-page .post em {
+  color: #bbb;
   font-size: 0.9em;
-  color: #ccc;
 }
+
